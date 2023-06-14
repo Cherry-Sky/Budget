@@ -1,0 +1,73 @@
+html, body, h1, p, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(252, 250, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: rgb(250, 167, 43);
+    height: 50px;
+    font-size: 10px;
+    padding-left: 50px;
+    color:white;
+}
+.header h1 {
+    padding-top:10px ;
+    height: 5px;
+}
+.header ul {
+    float: right;
+    list-style: none;
+    font-size: 19px;
+    
+}
+.header ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+.info {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    border: 2px solid rgb(245, 198, 69);
+    margin: 50px 10px 0px 10px;
+    font-size: 15px;
+    padding: 20px 10px;
+    position: relative;
+}
+.info p {
+    padding: 0px 20px;
+}
+input[type=submit] {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    width: 350px;
+    height: 30px;
+    border: none;
+}
+.dashboard {
+    float: left;
+    
+
+}
+.budget {
+    float: left;
+    
+}
+.checkbooks {
+    float: left;
+    
+}
+.money {
+    float: left;
+   
+}
+.container {
+   
+    position: absolute;
+    margin-left: 150px;
+}
