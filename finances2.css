@@ -19,7 +19,8 @@ body {
     height: 5px;
 }
 .header ul {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
     font-size: 19px;
     
@@ -27,7 +28,7 @@ body {
 .header ul li{
     display: inline;
     margin-right: 20px;
-
+    
 }
 .info {
     background-color: white;
@@ -37,7 +38,7 @@ body {
     margin: 50px 10px 0px 10px;
     font-size: 15px;
     padding: 20px 10px;
-    position: relative;
+    
 }
 .info p {
     padding: 0px 20px;
@@ -49,25 +50,10 @@ input[type=submit] {
     height: 30px;
     border: none;
 }
-.dashboard {
-    float: left;
-    
 
-}
-.budget {
-    float: left;
-    
-}
-.checkbooks {
-    float: left;
-    
-}
-.money {
-    float: left;
-   
-}
 .container {
-   
-    position: absolute;
-    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
